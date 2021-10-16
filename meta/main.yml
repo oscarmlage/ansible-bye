@@ -2,9 +2,9 @@
 dependencies: []
 
 galaxy_info:
-  role_name: hello
+  role_name: bye
   author: oscarmlage
-  description: Ansible role that just says hello
+  description: Ansible role that just says bye
   company: "oscarmlage.com"
   license: "license (BSD, MIT)"
   min_ansible_version: 2.4
