@@ -1,0 +1,10 @@
+---
+- name: Say bye
+  command: echo "bye world!"
+  register: bye_var
+
+- name: Debug bye
+  debug:
+    msg: "Var: {{ bye_var.stdout }}"
+
+
